@@ -16,5 +16,13 @@ programa {
       salario += (salario * 12) / 100
       escreva("\nO novo salario de ",nome," é ",salario)
     }
+    senao se (idade >= 36 e idade <= 50){
+      salario += (salario * 14.5) / 100
+      escreva("\nO novo salario de ",nome," é ",salario)
+    }
+    senao se (idade > 50){
+      salario += (salario * 17) / 100
+      escreva("\nO novo salario de ",nome," é ",salario)
+    }
   }
 }
